@@ -55,6 +55,8 @@ export default function App() {
 
   // Replace this with your preferred active email address
   const CONTACT_EMAIL = "shanmukhi2300@gmail.com";
+  const EMAIL_SUBJECT = encodeURIComponent("Inquiry regarding Forma Studio");
+  
 
   return (
     <div className="app">
