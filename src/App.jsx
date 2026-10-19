@@ -54,7 +54,7 @@ export default function App() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   // Replace this with your preferred active email address
-  const CONTACT_EMAIL = "shanmukhi.design@gmail.com";
+  const CONTACT_EMAIL = "shanmukhi2300@gmail.com";
 
   return (
     <div className="app">
