@@ -176,9 +176,15 @@ export default function App() {
               <p className="hero-subtitle" style={{ margin: '0 auto' }}>
                 Currently open for freelance design inquiries and technical web design opportunities.
               </p>
-              <a href={`mailto:${CONTACT_EMAIL}`} className="contact-email">
-                {CONTACT_EMAIL}
-              </a>
+              <a 
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT_EMAIL}&su=${EMAIL_SUBJECT}`} 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="contact-email"
+>
+  {CONTACT_EMAIL}
+</a>
+
             </div>
           </div>
         </section>
